@@ -1,6 +1,6 @@
 # Tutorial para descargar e instalar el sdk de .NET Version 7
 
-**1. Abre tu navegador web y dirígete al sitio web oficial de descargas de .NET en https://dotnet.microsoft.com/en-us/download/dotnet/7.0**
+**1. Abre tu navegador web y dirígete al sitio web oficial de descargas de .NET en el siguiente link: https://dotnet.microsoft.com/en-us/download/dotnet/7.0**
 
 ![image](https://github.com/PriBaez/PracticaScrum/assets/70114031/00985237-7826-4834-b555-4dff0ce92360)
 
@@ -19,3 +19,5 @@
 
 
 `dotnet --version`
+
+![image](https://github.com/PriBaez/PracticaScrum/assets/70114031/5ced842f-1b4a-4f97-8dcb-84c6aa315dce)
