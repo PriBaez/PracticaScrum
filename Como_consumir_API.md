@@ -1,7 +1,8 @@
-# Documentación para consumir una API con .net
+# Documentación para consumir una API con .NET
 
-### A continuación, un ejemplo de cómo consumir una API con C# y .net
+### A continuación, un ejemplo de cómo consumir una API con C# y .NET
 
+```csharp
 using System.Net.Http.Headers;
 var client = new HttpClient();
 var request = new HttpRequestMessage
@@ -20,4 +21,4 @@ using (var response = await client.SendAsync(request))
 	var body = await response.Content.ReadAsStringAsync();
 	Console.WriteLine(body);
 }
-
+```
