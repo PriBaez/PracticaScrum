@@ -1,4 +1,4 @@
-# Indice
+# Primeros pasos en C#
 
 [1. Descargar SDK](https://github.com/PriBaez/PracticaScrum/blob/Update-README.md/Descargar_el_sdk_de_.NET_7.md)
 
@@ -12,8 +12,10 @@
 
 [6. Entradas y salidas del lenguaje](https://github.com/PriBaez/PracticaScrum/blob/Update-README.md/Leer%20e%20mostrar%20por%20pantalla%20en%20c%23.md)
 
-[7. Input y Ouput](https://github.com/PriBaez/PracticaScrum/blob/Update-README.md/Input%20y%20Output%20C%23.md)
+[7. Cancelar la aplicacion C#](https://github.com/PriBaez/PracticaScrum/blob/main/Cancelar_la_aplicacion_desde_la_linea_de_comando.md)
 
-[8. Como consumir API](https://github.com/PriBaez/PracticaScrum/blob/Update-README.md/Como_consumir_API.md)
+[8. Input y Ouput](https://github.com/PriBaez/PracticaScrum/blob/Update-README.md/Input%20y%20Output%20C%23.md)
 
-[9. Como hacer un ejecutable en C#](https://github.com/PriBaez/PracticaScrum/blob/Update-README.md/Como%20hacer%20un%20ejecutable%20en%20C%23.md)
+[9. Como consumir API](https://github.com/PriBaez/PracticaScrum/blob/Update-README.md/Como_consumir_API.md)
+
+[10. Como hacer un ejecutable en C#](https://github.com/PriBaez/PracticaScrum/blob/Update-README.md/Como%20hacer%20un%20ejecutable%20en%20C%23.md)
