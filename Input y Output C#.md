@@ -10,31 +10,34 @@ El código siguiente usa la clase `StreamReader` para abrir, leer y cerrar el ar
 3. En el menú **Archivo**, seleccione **Nuevo** y luego **Proyecto**.
 4. Seleccione **Proyectos en Visual C#** en Tipos de proyecto y luego seleccione **Aplicación de consola** en **Plantillas**.
 5. Agregue el código siguiente al principio del archivo *Class1.cs*:
-> using System.IO;
+```csharp
+using System.IO;
+```
 6. Agregue el código siguiente al método `Main`:  
 
-String line;  
-try  
-{  
-    StreamReader sr = new StreamReader("C:\\Sample.txt");  
-    line = sr.ReadLine();  
-    while (line != null)  
-    {  
-        Console.WriteLine(line);  
-        line = sr.ReadLine();  
-    }  
-    sr.Close();  
-    Console.ReadLine();  
-}  
-catch(Exception e)  
-{  
-    Console.WriteLine("Exception: " + e.Message);  
-}  
-finally  
-{  
-    Console.WriteLine("Executing finally block.");  
-}  
-
+```csharp
+String line;
+try
+{
+    StreamReader sr = new StreamReader("C:\\Sample.txt");
+    line = sr.ReadLine();
+    while (line != null)
+    {
+        Console.WriteLine(line);
+        line = sr.ReadLine();
+    }
+    sr.Close();
+    Console.ReadLine();
+}
+catch(Exception e)
+{
+    Console.WriteLine("Exception: " + e.Message);
+}
+finally
+{
+    Console.WriteLine("Executing finally block.");
+}
+```
 7. En el menú Depurar, seleccione Inicio para compilar y ejecutar la aplicación. Presione Entrar para cerrar la ventana Consola. 
 La ventana Consola muestra el contenido del archivo Sample.txt:
 > Hello world
@@ -49,25 +52,27 @@ de un archivo de texto al constructor StreamWriter para abrir el archivo automá
 2. En el menú Archivo, seleccione Nuevo y luego Proyecto.
 3. Seleccione Proyectos en Visual C# en Tipos de proyecto y luego seleccione Aplicación de consola en Plantillas.
 4. Agregue el código siguiente al principio del archivo Class1.cs:
-> using System.IO;
+```csharp
+using System.IO;
+```
 5. Agregue el código siguiente al método Main:  
-
-try  
-{  
-    StreamWriter sw = new StreamWriter("C:\\Test.txt");  
-    sw.WriteLine("Hello World!!");  
-    sw.WriteLine("From the StreamWriter class");  
-    sw.Close();  
-}  
-catch(Exception e)  
-{  
-    Console.WriteLine("Exception: " + e.Message);  
-}  
-finally  
-{  
-    Console.WriteLine("Executing finally block.");  
-}  
-
+```csharp
+try
+{
+    StreamWriter sw = new StreamWriter("C:\\Test.txt");
+    sw.WriteLine("Hello World!!");
+    sw.WriteLine("From the StreamWriter class");
+    sw.Close();
+}
+catch(Exception e)
+{
+    Console.WriteLine("Exception: " + e.Message);
+}
+finally
+{
+    Console.WriteLine("Executing finally block.");
+}
+```
 6. En el menú Depurar, seleccione Inicio para compilar y ejecutar la aplicación. Este código crea un archivo denominado Test.txt la unidad C. Abra Test.txt en un editor de texto, como Bloc de notas. Test.txt contiene dos líneas de texto.
 > Hello World!!  
 > From the StreamWriter class
